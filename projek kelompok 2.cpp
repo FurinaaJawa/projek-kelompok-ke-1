@@ -10,7 +10,7 @@ int main() {
     do {
         cout << "masukkan nik : ";
         cin >> nik;
-        cin.ignore(); // Membersihkan newline
+        cin.ignore(); 
 
         cout << "masukkan nama : ";
         getline(cin, nama);
