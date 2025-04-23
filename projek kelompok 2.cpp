@@ -18,7 +18,7 @@ int main() {
         cout << "masukkan tempat lahir : ";
         getline(cin, tempat);
 
-        cout << "masukkan tanggal lahir (format: dd-mm-yy, misalnya 20021231) : ";
+        cout << "masukkan tanggal lahir (format: dd-mm-yy : ";
         cin >> ttl;
         cin.ignore();
 		
@@ -75,8 +75,7 @@ int main() {
         cout << "--------------------------------------" << endl;
         cout << "mau memasukkan data lagi? (y/n): ";
         cin >> pil;
-        cin.ignore(); // Untuk menghindari bug jika user memasukkan enter setelah 'y'/'n'
-
+        cin.ignore();
     } while (pil == 'y' || pil == 'Y');
 
     return 0;
